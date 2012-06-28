@@ -1,3 +1,4 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
+	"trim_automatic_white_space": false,
+	"ensure_newline_at_eof_on_save": true
 }

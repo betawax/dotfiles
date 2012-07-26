@@ -1,0 +1,5 @@
+{
+	"cmd": ["/usr/local/Cellar/ruby/1.9.3-p125/bin/ruby", "$file"],
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.ruby"
+}

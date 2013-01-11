@@ -1,23 +1,13 @@
 require "rake"
+require "json"
 
 desc "Link the config files"
 task :install do
   
-  files = {
-    ".bash_profile" => "Bash/.bash_profile",
-    "Library/Application Support/Sublime Text 2/Packages/User/CSS.sublime-settings" => "Sublime Text 2/CSS.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap" => "Sublime Text 2/Default (OSX).sublime-keymap",
-    "Library/Application Support/Sublime Text 2/Packages/User/HTML (Rails).sublime-settings" => "Sublime Text 2/HTML (Rails).sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings" => "Sublime Text 2/HTML.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings" => "Sublime Text 2/JavaScript.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings" => "Sublime Text 2/Markdown.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/PHP.sublime-settings" => "Sublime Text 2/PHP.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-build" => "Sublime Text 2/Ruby.sublime-build",
-    "Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings" => "Sublime Text 2/Ruby.sublime-settings",
-    "Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings" => "Sublime Text 2/Preferences.sublime-settings"
-  }
+  symlinks_json = File.read("Symlinks.json")
+  symlinks = JSON.parse(symlinks_json)
   
-  files.each do |link, file|
+  symlinks.each do |link, file|
     
     link = ENV["HOME"]+"/"+link
     file = Dir.pwd+"/"+file

@@ -31,7 +31,7 @@ end
 
 def link_file(link, file)
   puts "Linking #{link} with #{file}"
-  File.symlink(file, link)
+  FileUtils.ln_s(file, link, :force => true)
 end
 
 def backup_file(file)

@@ -10,6 +10,7 @@
   "Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-build": "Sublime Text/Ruby.sublime-build",
   "Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings": "Sublime Text/Ruby.sublime-settings",
   "Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings": "Sublime Text/Preferences.sublime-settings",
+  "Library/Application Support/Sublime Text 2/Packages/TypoScript": "Sublime Text/TypoScript",
   "Library/Application Support/Sublime Text 3/Packages/User/CSS.sublime-settings": "Sublime Text/CSS.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "Sublime Text/Default (OSX).sublime-keymap",
   "Library/Application Support/Sublime Text 3/Packages/User/HTML (Rails).sublime-settings": "Sublime Text/HTML (Rails).sublime-settings",
@@ -19,5 +20,6 @@
   "Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings": "Sublime Text/PHP.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-build": "Sublime Text/Ruby.sublime-build",
   "Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings": "Sublime Text/Ruby.sublime-settings",
-  "Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": "Sublime Text/Preferences.sublime-settings"
+  "Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": "Sublime Text/Preferences.sublime-settings",
+  "Library/Application Support/Sublime Text 3/Packages/User/TypoScript": "Sublime Text/TypoScript"
 }

@@ -17,9 +17,11 @@
   "Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings": "Sublime Text/HTML.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings": "Sublime Text/JavaScript.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings": "Sublime Text/Markdown.sublime-settings",
+  "Library/Application Support/Sublime Text 3/Packages/User/Blade.sublime-settings": "Sublime Text/Blade.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings": "Sublime Text/PHP.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-build": "Sublime Text/Ruby.sublime-build",
   "Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings": "Sublime Text/Ruby.sublime-settings",
   "Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": "Sublime Text/Preferences.sublime-settings",
+  "Library/Application Support/Sublime Text 3/Packages/User/Blade": "Sublime Text/Blade",
   "Library/Application Support/Sublime Text 3/Packages/User/TypoScript": "Sublime Text/TypoScript"
 }

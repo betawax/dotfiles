@@ -1,4 +1,5 @@
 [
+	{ "keys": ["super+b"], "command": "toggle_side_bar" },
 	{ "keys": ["super+alt+5"], "command": "unindent" },
 	{ "keys": ["super+alt+6"], "command": "indent" },
 	{ "keys": ["super+alt+7"], "command": "reindent" }

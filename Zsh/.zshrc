@@ -12,3 +12,6 @@ source $ZSH/oh-my-zsh.sh
 
 # PATH
 export PATH=/usr/local/bin:$PATH
+
+# PHP
+export PATH=$(brew --prefix php54)/bin:$PATH

@@ -1,5 +1,6 @@
 {
 	".bash_profile": "Bash/.bash_profile",
+	".gitconfig": "Git/.gitconfig",
 	".zshrc": "Zsh/.zshrc",
 	".oh-my-zsh/themes/betawax.zsh-theme": "Zsh/betawax.zsh-theme",
 	"Library/Application Support/Sublime Text 3/Packages/User": "Sublime Text"

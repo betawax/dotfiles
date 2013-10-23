@@ -3,5 +3,6 @@
 	{ "keys": ["super+alt+5"], "command": "unindent" },
 	{ "keys": ["super+alt+6"], "command": "indent" },
 	{ "keys": ["super+alt+7"], "command": "reindent" },
-	{ "keys": ["super+alt+g"], "command": "open_gist" }
+	{ "keys": ["super+alt+g"], "command": "open_gist" },
+	{ "keys": ["super+alt+t"], "command": "delete_trailing_spaces" },
 ]

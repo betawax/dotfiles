@@ -5,4 +5,5 @@
 	{ "keys": ["super+alt+7"], "command": "reindent" },
 	{ "keys": ["super+alt+g"], "command": "open_gist" },
 	{ "keys": ["super+alt+t"], "command": "delete_trailing_spaces" },
+	{ "keys": ["super+alt+f"], "command": "inline_facades" }
 ]

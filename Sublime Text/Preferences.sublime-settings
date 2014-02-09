@@ -1,10 +1,25 @@
 {
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".vagrant"],
-	"color_scheme": "Packages/User/Peacock.tmTheme",
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/peacocks-in-space.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".vagrant"
+	],
 	"font_face": "Monaco",
 	"font_size": 12,
-	"rulers": [120],
-	"ensure_newline_at_eof_on_save": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"theme": "Spacegray.sublime-theme",
 	"trim_automatic_white_space": false,
 	"word_wrap": false
 }

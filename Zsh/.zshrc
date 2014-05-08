@@ -5,10 +5,11 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="betawax"
 
 # Aliases
+alias subl="subl --new-window"
 alias artisan="php artisan"
-alias phpunit="php vendor/bin/phpunit"
 alias composer="hhvm /usr/local/bin/composer"
 alias dump="composer dump-autoload && artisan dump-autoload"
+alias vup="vagrant up"
 
 # oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -16,5 +17,8 @@ source $ZSH/oh-my-zsh.sh
 # PATH
 export PATH=/usr/local/bin:/usr/local/sbin:/sbin:$PATH
 
-# PHP version
+# PHP
 #export PATH=$(brew --prefix php55)/bin:$PATH
+
+# Ruby
+export PATH=$(brew --prefix ruby)/bin:$PATH

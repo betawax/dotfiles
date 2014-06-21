@@ -38,7 +38,7 @@
 	<key>FontWidthSpacing</key>
 	<real>1</real>
 	<key>ProfileCurrentVersion</key>
-	<real>2.02</real>
+	<real>2.04</real>
 	<key>RunCommandAsShell</key>
 	<true/>
 	<key>SelectionColor</key>
@@ -84,12 +84,14 @@
 	<false/>
 	<key>VisualBell</key>
 	<true/>
+	<key>VisualBellOnlyWhenMuted</key>
+	<false/>
 	<key>columnCount</key>
-	<integer>178</integer>
+	<integer>203</integer>
 	<key>name</key>
 	<string>betawax</string>
 	<key>rowCount</key>
-	<integer>47</integer>
+	<integer>60</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>

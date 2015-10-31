@@ -6,8 +6,9 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias subl="subl --new-window"
 alias artisan="php artisan"
-alias dump="composer dump-autoload && artisan dump-autoload"
-alias vup="vagrant up"
+alias dump="composer dump-autoload"
+alias ls="gls -h --color --group-directories-first"
+alias resetlp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 
 # PATH
 export PATH=/usr/local/bin:/usr/local/sbin:/sbin:~/.composer/vendor/bin:$PATH

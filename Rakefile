@@ -4,7 +4,7 @@ require "json"
 desc "Link the config files"
 task :install do
   
-  symlinks_json = File.read("Symlinks.json")
+  symlinks_json = File.read("symlinks.json")
   symlinks = JSON.parse(symlinks_json)
   
   symlinks.each do |link, file|

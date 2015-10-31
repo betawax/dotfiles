@@ -1,11 +1,13 @@
-# My config files
+# ~/.dotfiles
 
-The config files I use on my system.
+![image](screenshot.png)
 
 ## Installation
 
-	git clone git@github.com:betawax/dotfiles.git ~/.dotfiles
-	cd ~/.dotfiles
-	rake install
+```
+git clone git@github.com:betawax/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+rake install
+```
 
-This will link all config files specified in `Symlinks.json` relative to the home directory of the current user. If a file already exists, a backup is created. See the `Rakefile` for what is actually happen.
+This will link all config files specified in `symlinks.json` relative to the home directory of the current user. If a file already exists, a backup is created. See the `Rakefile` for what is actually happen.

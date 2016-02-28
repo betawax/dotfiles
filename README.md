@@ -1,6 +1,6 @@
 # ~/.dotfiles
 
-![image](screenshot.png)
+![](screenshot.png)
 
 ## Installation
 

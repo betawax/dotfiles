@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Dayle Rees Color Schemes",
+		"DotENV",
+		"GitGutter",
+		"Laravel 4 Facades",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"PHP Companion",
+		"PHP Completions Kit",
+		"php-grammar",
+		"Sass",
+		"SublimeCodeIntel",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}

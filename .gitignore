@@ -2,4 +2,5 @@ Sublime Text/Package Control.*
 !Sublime Text/Package Control.sublime-settings
 Sublime Text/GitHub.sublime-settings
 
+access_tokens
 *.cache

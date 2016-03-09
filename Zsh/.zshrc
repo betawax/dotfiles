@@ -15,6 +15,7 @@ alias subl="subl --new-window"
 # PATH
 export PATH=/usr/local/bin:/usr/local/sbin:/sbin:~/.composer/vendor/bin:$PATH
 
-# Homebrew
-#export PATH=$(brew --prefix php55)/bin:$PATH
-#export PATH=$(brew --prefix ruby)/bin:$PATH
+# Access Tokens
+if [ -f ~/.dotfiles/access_tokens ]; then
+  source ~/.dotfiles/access_tokens
+fi

@@ -18,5 +18,5 @@ This will link all config files specified in `symlinks.json` relative to the hom
 brew install coreutils gnu-sed zsh
 brew install git mysql imagemagick
 brew install composer node wp-cli drush
-brew install php56 ruby
+brew install php70 ruby
 ```

@@ -7,10 +7,15 @@ source $ZSH/oh-my-zsh.sh
 alias artisan="php artisan"
 alias dump="composer dump-autoload"
 alias ls="gls -h --color --group-directories-first"
-alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd ._.Trashes; find . -name '._*' -exec rm -f {} \;; ls -la; cd"
-alias resetlp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 alias sed="gsed"
 alias subl="subl --new-window"
+
+# Shortcuts
+alias brup="brew update && brew upgrade && brew cleanup"
+alias gopro="find ~/Documents/GoPro -iname '*.mp4' | wc -l | awk '{print \$1}'"
+alias openlog="rm -rf /Volumes/NO\ NAME/.*; ls -la /Volumes/NO\ NAME/; diskutil unmountDisk /dev/disk3"
+alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd ._.Trashes; find . -name '._*' -exec rm -f {} \;; ls -la; cd"
+alias resetlp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 
 # PATH
 export PATH=/usr/local/bin:/usr/local/sbin:/sbin:~/.composer/vendor/bin:$PATH

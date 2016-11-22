@@ -4,3 +4,4 @@ Sublime Text/GitHub.sublime-settings
 
 access_tokens
 *.cache
+*.crt

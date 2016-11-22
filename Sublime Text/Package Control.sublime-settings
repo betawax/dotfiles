@@ -9,6 +9,7 @@
 		"Dayle Rees Color Schemes",
 		"DotENV",
 		"GitGutter",
+		"jQuery",
 		"Laravel Blade Highlighter",
 		"Package Control",
 		"PHP Companion",
@@ -17,6 +18,7 @@
 		"Sass",
 		"SublimeCodeIntel",
 		"Theme - Spacegray",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"URLEncode"
 	]
 }

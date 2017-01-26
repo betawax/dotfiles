@@ -14,7 +14,7 @@ alias subl="subl --new-window"
 alias brup="brew update && brew upgrade && brew cleanup"
 alias gopro="find ~/Documents/GoPro -iname '*.mp4' | wc -l | awk '{print \$1}'"
 alias openlog="rm -rf /Volumes/NO\ NAME/.*; ls -la /Volumes/NO\ NAME/; diskutil unmountDisk /dev/disk3"
-alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd ._.Trashes; find . -name '._*' -exec rm -f {} \;; ls -la; cd; diskutil unmountDisk /Volumes/NO\ NAME; diskutil unmountDisk /Volumes/TARANIS"
+alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd ._.Trashes; find . -name '._*' -exec rm -f {} \;; find . -name '.DS_Store' -exec rm -f {} \;; ls -la; cd; diskutil unmountDisk /Volumes/NO\ NAME; diskutil unmountDisk /Volumes/TARANIS"
 alias resetlp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 
 # PATH

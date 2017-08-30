@@ -6,11 +6,13 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"DataConverter",
 		"Dayle Rees Color Schemes",
 		"DotENV",
 		"GitGutter",
 		"jQuery",
 		"Laravel Blade Highlighter",
+		"Laravel Blade Spacer",
 		"Package Control",
 		"PHP Companion",
 		"PHP Completions Kit",

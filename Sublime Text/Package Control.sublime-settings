@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Codec",
 		"DataConverter",
 		"Dayle Rees Color Schemes",
 		"DotENV",
@@ -16,7 +17,7 @@
 		"Package Control",
 		"PHP Companion",
 		"PHP Completions Kit",
-		"php-grammar",
+		"PHPGrammar",
 		"Sass",
 		"SublimeCodeIntel",
 		"Theme - Spacegray",

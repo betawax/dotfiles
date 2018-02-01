@@ -1,7 +1,5 @@
-# PROMPT
-# See spectrum_ls command
-PROMPT='$FG[208]%~ 🚀 %{$reset_color%} '
-#PROMPT="%{$fg_no_bold[white]%}%n@%m: %~ %{$reset_color%}$ "
+# PROMPT (see spectrum_ls command)
+PROMPT="$FG[208]%~ 🚀 %{$reset_color%}"
 
 # LSCOLORS
 export LSCOLORS="exfxcxdxbxegedabagacad"
@@ -14,6 +12,3 @@ fi
 
 # zstyle
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-
-# Clear the screen
-#printf "\033c"

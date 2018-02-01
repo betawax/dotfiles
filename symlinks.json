@@ -4,6 +4,5 @@
     ".hushlogin": "Zsh/.hushlogin",
     ".oh-my-zsh/themes/betawax.zsh-theme": "Zsh/betawax.zsh-theme",
     ".gitconfig": "Git/.gitconfig",
-    ".bash_profile": "Bash/.bash_profile",
     "Library/Application Support/Sublime Text 3/Packages/User": "Sublime"
 }

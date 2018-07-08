@@ -11,6 +11,7 @@ alias sed="gsed"
 alias subl="subl --new-window"
 
 # Shortcuts
+alias blackbox="cd /Volumes/BLACKBOX; rm -rf .Spotlight-V100 .fseventsd; find . -name '.DS_Store' -exec rm -f {} \;; ls -la; cd; diskutil unmountDisk /Volumes/BLACKBOX"
 alias brup="brew update && brew upgrade && brew cleanup"
 alias gopro="find ~/Documents/GoPro -iname '*.mp4' | wc -l | awk '{print \$1}'"
 alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd ._.Trashes; find . -name '._*' -exec rm -f {} \;; find . -name '.DS_Store' -exec rm -f {} \;; ls -la; cd; diskutil unmountDisk /Volumes/NO\ NAME; diskutil unmountDisk /Volumes/TARANIS"

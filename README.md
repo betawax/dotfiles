@@ -20,3 +20,15 @@ brew tap homebrew/dupes; brew install grep
 brew install git node composer wp-cli mysql
 brew install php71 ruby
 ```
+
+## NPM Packages
+
+```
+npm install -g webpack webpack-cli gulp-cli
+```
+
+## Ruby Gems
+
+```
+gem install bundler
+```

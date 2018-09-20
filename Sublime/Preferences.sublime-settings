@@ -1,25 +1,25 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
-    "ensure_newline_at_eof_on_save": true,
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        ".vagrant"
-    ],
-    "font_face": "Monaco",
-    "font_size": 12,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "rulers":
-    [
-        120
-    ],
-    "theme": "Adaptive.sublime-theme",
-    "trim_automatic_white_space": false,
-    "word_wrap": false
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".vagrant"
+	],
+	"font_face": "Monaco",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"theme": "Adaptive.sublime-theme",
+	"trim_automatic_white_space": false,
+	"word_wrap": false
 }

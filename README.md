@@ -21,6 +21,12 @@ brew install git node composer wp-cli mysql
 brew install php71 ruby
 ```
 
+## Composer Packages
+
+```
+composer global require laravel/installer laravel/envoy
+```
+
 ## NPM Packages
 
 ```

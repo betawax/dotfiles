@@ -24,7 +24,7 @@ brew install php71 ruby
 ## Composer Packages
 
 ```
-composer global require laravel/installer laravel/envoy
+composer global require laravel/installer laravel/envoy phpunit/phpunit
 ```
 
 ## NPM Packages

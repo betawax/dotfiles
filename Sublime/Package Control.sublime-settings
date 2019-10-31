@@ -1,31 +1,31 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"All Autocomplete",
-		"Codec",
-		"DataConverter",
-		"Dayle Rees Color Schemes",
-		"DotENV",
-		"EditorConfig",
-		"Gist",
-		"GitGutter",
-		"jQuery",
-		"Laravel Blade Highlighter",
-		"Laravel Blade Spacer",
-		"Package Control",
-		"PHP Companion",
-		"PHP Completions Kit",
-		"PhpDoc",
-		"PHPGrammar",
-		"SCSS",
-		"SublimeCodeIntel",
-		"Theme - Spacegray",
-		"TrailingSpaces",
-		"URLEncode",
-		"Vue Syntax Highlight"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "All Autocomplete",
+        "Codec",
+        "DataConverter",
+        "Dayle Rees Color Schemes",
+        "DotENV",
+        "EditorConfig",
+        "Gist",
+        "GitGutter",
+        "jQuery",
+        "Laravel Blade Highlighter",
+        "Laravel Blade Spacer",
+        "Package Control",
+        "PHP Companion",
+        "PHP Completions Kit",
+        "PhpDoc",
+        "PHPGrammar",
+        "SCSS",
+        "SublimeCodeIntel",
+        "Theme - Spacegray",
+        "TrailingSpaces",
+        "URLEncode",
+        "Vue Syntax Highlight"
+    ]
 }

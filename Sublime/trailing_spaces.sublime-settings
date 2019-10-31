@@ -1,4 +1,4 @@
 {
-	"trailing_spaces_include_empty_lines": false,
-	"trailing_spaces_trim_on_save": false
+    "trailing_spaces_include_empty_lines": false,
+    "trailing_spaces_trim_on_save": false
 }

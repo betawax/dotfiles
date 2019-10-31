@@ -2,7 +2,7 @@
     ".zshrc": "Zsh/.zshrc",
     ".dircolors": "Zsh/.dircolors",
     ".hushlogin": "Zsh/.hushlogin",
-    ".oh-my-zsh/themes/betawax.zsh-theme": "Zsh/betawax.zsh-theme",
     ".gitconfig": "Git/.gitconfig",
+    ".oh-my-zsh/themes/betawax.zsh-theme": "Zsh/betawax.zsh-theme",
     "Library/Application Support/Sublime Text 3/Packages/User": "Sublime"
 }

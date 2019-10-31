@@ -15,8 +15,7 @@ This will link all config files specified in `symlinks.json` relative to the hom
 ## Homebrew Packages
 
 ```
-brew install coreutils gnu-sed zsh
-brew tap homebrew/dupes; brew install grep
+brew install coreutils gnu-sed grep zsh
 brew install git node composer wp-cli mysql
 brew install php@7.3 ruby
 ```

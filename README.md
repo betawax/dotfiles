@@ -15,25 +15,12 @@ This will link all config files specified in `symlinks.json` relative to the hom
 ## Homebrew Packages
 
 ```
-brew install coreutils gnu-sed grep zsh
-brew install git node composer wp-cli mysql
-brew install php@7.3 ruby
+brew install coreutils gnu-sed grep
+brew install composer node php ruby
 ```
 
 ## Composer Packages
 
 ```
-composer global require laravel/installer laravel/envoy phpunit/phpunit
-```
-
-## NPM Packages
-
-```
-npm install -g webpack webpack-cli gulp-cli
-```
-
-## Ruby Gems
-
-```
-gem install bundler
+composer global require laravel/envoy laravel/installer phpunit/phpunit
 ```

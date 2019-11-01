@@ -19,7 +19,7 @@ alias opentx="cd /Volumes/NO\ NAME; rm -rf .Spotlight-V100 .Trashes .fseventsd .
 alias resetlp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
 
 # PATH
-export PATH=/usr/local/bin:/usr/local/sbin:/sbin:~/.composer/vendor/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:$HOME/.composer/vendor/bin:$PATH
 
 # Access Tokens
 if [ -f ~/.dotfiles/access_tokens ]; then

@@ -16,4 +16,5 @@ This will link all config files specified in `symlinks.json` relative to the hom
 
 ```
 brew install coreutils gnu-sed grep
+brew install node php ruby
 ```

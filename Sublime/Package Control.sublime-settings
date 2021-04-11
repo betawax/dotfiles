@@ -6,9 +6,9 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"BracketHighlighter",
 		"Codec",
-		"DataConverter",
-		"Dayle Rees Color Schemes",
+		"DocBlockr",
 		"DotENV",
 		"EditorConfig",
 		"Gist",
@@ -17,16 +17,12 @@
 		"Laravel Blade Highlighter",
 		"Laravel Blade Spacer",
 		"Package Control",
-		"PHP Companion",
 		"PHP Completions Kit",
-		"PhpDoc",
-		"PHPGrammar",
-		"SCSS",
+		"Sass",
 		"SublimeCodeIntel",
 		"Theme - Gravity",
 		"Theme - Spacegray",
 		"TrailingSpaces",
-		"URLEncode",
 		"Vue Syntax Highlight"
 	]
 }

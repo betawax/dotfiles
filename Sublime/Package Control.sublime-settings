@@ -5,17 +5,22 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"All Autocomplete",
+		"ApacheConf",
 		"BracketHighlighter",
 		"Codec",
 		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
 		"DotENV",
 		"EditorConfig",
 		"Gist",
 		"GitGutter",
+		"JavaScript Completions",
 		"jQuery",
 		"Laravel Blade Highlighter",
 		"Laravel Blade Spacer",
+		"nginx",
 		"Package Control",
 		"PHP Completions Kit",
 		"Sass",
@@ -23,6 +28,7 @@
 		"Theme - Gravity",
 		"Theme - Spacegray",
 		"TrailingSpaces",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
+		"WordPress"
 	]
 }

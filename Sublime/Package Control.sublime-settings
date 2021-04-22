@@ -16,6 +16,7 @@
 		"EditorConfig",
 		"Gist",
 		"GitGutter",
+		"INI",
 		"JavaScript Completions",
 		"jQuery",
 		"Laravel Blade Highlighter",

@@ -11,6 +11,7 @@ source $ZSH/oh-my-zsh.sh
 alias artisan="php artisan"
 alias dump="composer dump-autoload"
 alias git="LANG=en_US.UTF-8 git"
+alias grep="ggrep --color"
 alias ls="gls --color --group-directories-first --human-readable"
 alias sed="gsed"
 alias subl="subl --new-window"

@@ -1,7 +1,5 @@
 # ~/.dotfiles
 
-![](screenshot.png)
-
 ## Installation
 
 ```

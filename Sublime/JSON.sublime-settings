@@ -1,7 +1,3 @@
 {
-    "tab_size": 4,
-    "extensions":
-    [
-        "json"
-    ]
+	"tab_size": 4
 }

@@ -1,34 +1,26 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"A File Icon",
-		"All Autocomplete",
 		"ApacheConf",
 		"BracketHighlighter",
 		"Codec",
-		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
 		"EditorConfig",
 		"Gist",
-		"GitGutter",
 		"INI",
-		"JavaScript Completions",
-		"jQuery",
 		"Laravel Blade Highlighter",
 		"Laravel Blade Spacer",
 		"nginx",
 		"Package Control",
-		"PHP Completions Kit",
 		"Sass",
-		"SublimeCodeIntel",
 		"Theme - Gravity",
 		"TrailingSpaces",
 		"Vue Syntax Highlight",
-		"WordPress"
-	]
+	],
+	"in_process_packages":
+	[
+	],
 }

@@ -9,6 +9,8 @@
 	"gravity_tab_font_small": true,
 	"gravity_tab_height_short": true,
 	"gravity_title_bar": true,
+	"index_exclude_gitignore": false,
+	"index_exclude_patterns": ["*.log", "dist/*"],
 	"tab_size": 2,
 	"theme": "Gravity One.sublime-theme",
 	"translate_tabs_to_spaces": true,

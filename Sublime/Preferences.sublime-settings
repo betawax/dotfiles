@@ -11,6 +11,7 @@
 	"gravity_title_bar": true,
 	"index_exclude_gitignore": false,
 	"index_exclude_patterns": ["*.log", "dist/*"],
+	"show_tab_close_buttons_on_left": true,
 	"tab_size": 2,
 	"theme": "Gravity One.sublime-theme",
 	"translate_tabs_to_spaces": true,

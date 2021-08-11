@@ -1,4 +1,6 @@
 {
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
 	"color_scheme": "Packages/Theme - Gravity/One Dark Gravity.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns": [".git", ".vagrant"],

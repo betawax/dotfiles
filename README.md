@@ -39,3 +39,7 @@ brew install coreutils gnu-sed grep
 ### Terminal Profile
 
 Double tap the terminal profile to install it.
+
+## License
+
+Licensed under the MIT license.

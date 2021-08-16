@@ -1,32 +1,35 @@
 require "rake"
 require "json"
 
-desc "Link the config files"
 task :install do
 
-  symlinks_json = File.read("symlinks.json")
-  symlinks = JSON.parse(symlinks_json)
+  # Get the symlinks to create from the JSON file
+  symlinks = JSON.parse(File.read("symlinks.json"))
 
   symlinks.each do |link, file|
 
+    # Make the paths absolute
     link = ENV["HOME"]+"/"+link
     file = Dir.pwd+"/"+file
 
-    link_dir = link.gsub(/[^\/]+\/?$/, "")
-    if (File.exist?(link_dir))
+    # Check if the directory to create the symlink in exists
+    if (File.exist?(link.gsub(/[^\/]+\/?$/, "")))
 
+      # Check if the file to link already exists
       if File.exist?(link)
 
-        if File.symlink?(link)
-          File.delete(link)
-        else
-          backup_file(link)
-        end
+        # Create a backup if the file is not already a symlink
+        File.symlink?(link) ? File.delete(link) : backup_file(link)
+
       end
 
+      # Create the symlink
       link_file(link, file)
+
     end
+
   end
+
 end
 
 def link_file(link, file)

@@ -1,7 +1,6 @@
 {
     ".gitconfig": "Git/.gitconfig",
     ".zshrc": "Shell/.zshrc",
-    ".dircolors": "Shell/.dircolors",
     ".hushlogin": "Shell/.hushlogin",
     ".oh-my-zsh/themes/betawax.zsh-theme": "Shell/betawax.zsh-theme",
     "Library/Application Support/Sublime Text/Packages/User": "Sublime"

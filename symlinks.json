@@ -1,7 +1,6 @@
 {
+    ".config/fish": "Fish",
     ".gitconfig": "Git/.gitconfig",
-    ".zshrc": "Shell/.zshrc",
-    ".hushlogin": "Shell/.hushlogin",
-    ".oh-my-zsh/themes/betawax.zsh-theme": "Shell/betawax.zsh-theme",
+    ".hushlogin": ".hushlogin",
     "Library/Application Support/Sublime Text/Packages/User": "Sublime"
 }

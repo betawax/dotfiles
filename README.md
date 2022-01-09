@@ -6,15 +6,17 @@ My config files for development on macOS.
 
 ### 🚀 Command Line
 
-- macOS Terminal
-- Zsh + Oh My Zsh
-- GNU utilities
-- Homebrew
+- [Fish Shell](https://fishshell.com/)
+- [Homebrew](https://brew.sh/)
+- [GNU Utilities](https://www.gnu.org/software/coreutils/)
+- [macOS Terminal](https://support.apple.com/guide/terminal/welcome/mac)
 
 ### 🚀 macOS Apps
 
-- [Sublime Text 4](https://www.sublimetext.com/) + [Package Control](https://packagecontrol.io/)
-- [Tower](https://www.git-tower.com/) + [Kaleidoscope](https://kaleidoscope.app/)
+- [Sublime Text 4](https://www.sublimetext.com/)
+- [Package Control](https://packagecontrol.io/)
+- [Kaleidoscope](https://kaleidoscope.app/)
+- [Tower](https://www.git-tower.com/)
 
 ## Installation
 
@@ -34,6 +36,16 @@ Install required Homebrew packages:
 
 ```
 brew install coreutils gnu-sed grep
+```
+
+### Fish Shell
+
+Install Fish and make it the default shell:
+
+```
+brew install fish
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
 ```
 
 ### Terminal Profile

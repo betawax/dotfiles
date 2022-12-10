@@ -32,7 +32,7 @@ alias sed 'gsed'
 
 # Define command aliases
 alias artisan 'php artisan'
-alias subl 'subl --new-window'
+alias code 'code --new-window'
 
 #
 # Abbreviations

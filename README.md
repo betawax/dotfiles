@@ -13,8 +13,7 @@ My config files for development on macOS.
 
 ### 🚀 macOS Apps
 
-- [Sublime Text 4](https://www.sublimetext.com/)
-- [Package Control](https://packagecontrol.io/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Kaleidoscope](https://kaleidoscope.app/)
 - [Tower](https://www.git-tower.com/)
 

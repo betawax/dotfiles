@@ -23,6 +23,12 @@ if [ -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
 fi
 
 #
+# Aliases
+#
+
+alias ls='gls --color --group-directories-first --human-readable'
+
+#
 # PROMPT
 #
 

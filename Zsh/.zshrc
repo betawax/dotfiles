@@ -5,8 +5,8 @@
 # Add directories to $PATH
 path=('/usr/local/bin' $path)
 path=('/usr/local/sbin' $path)
-path=('/usr/local/opt/ruby/bin' $path)
-path=("$HOME/.composer/vendor/bin" $path)
+path=('/opt/homebrew/bin' $path)
+path=('/opt/homebrew/sbin' $path)
 
 # Leave only unique values
 typeset -TUx PATH path

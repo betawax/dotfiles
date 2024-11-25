@@ -18,8 +18,8 @@ source ~/.config/fish/colors.fish
 # Add directories to $PATH
 fish_add_path /usr/local/bin
 fish_add_path /usr/local/sbin
-fish_add_path /usr/local/opt/ruby/bin
-fish_add_path ~/.composer/vendor/bin
+fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/sbin
 
 #
 # Aliases

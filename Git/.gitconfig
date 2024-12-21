@@ -2,7 +2,7 @@
 	name = Holger Weis
 	email = holger.weis@gmail.com
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [core]
 	editor = code --new-window --wait
 [diff]
